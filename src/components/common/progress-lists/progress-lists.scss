@@ -1,0 +1,65 @@
+.progress-lists {
+  .fixed-background {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    padding: 10px 0 30px 40px ;
+    z-index: 1;
+    &:before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      top: 0;
+      z-index: -1;
+      background: #f1f5f9;
+    }
+
+    .finish {
+      position: absolute;
+      left: -21px;
+      top: -7px;
+    }
+    .label-box {
+      height: 45px;
+      padding-left: 25px;
+      .accomplish {
+        width: 11px;
+        height: 16px;
+        color: #56A7FD;
+        margin-right: 6px;
+        font-size: 10px;
+      }
+      label {
+        height: 25px;
+        width: auto;
+        line-height: 22px;
+
+      }
+      .listNumber {
+        margin-right: 15px;
+        margin-left: 15px;
+        color: #9fa0a1;
+      }
+      .line-drawing {
+        flex: 1;
+        height: 0;
+        border-bottom: solid 2px #D8D8D8;
+      }
+
+    }
+    .list-detail {
+      padding-left: 45px;
+      align-content: stretch;
+      align-items: stretch;
+    }
+  }
+  .first-cli{
+    &:before {
+      top: 26px !important;
+      button:-20px !important;
+    }
+  }
+
+}

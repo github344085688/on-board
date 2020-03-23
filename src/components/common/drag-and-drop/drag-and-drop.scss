@@ -1,0 +1,11 @@
+.drop-or-browse{
+  height: 35px;
+  background: #E5E5E5;
+  border: 1px dashed #979797;
+  box-sizing: border-box;
+  border-radius: 2px;
+  .flex1{
+    flex: 1;
+    white-space:nowrap;
+  }
+}

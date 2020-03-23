@@ -1,0 +1,12 @@
+.obd-header {
+  position: fixed;
+  top: 0;
+  left: 240px;
+  right: 0;
+  height: 50px;
+  transition: left 0.5s;
+  z-index: 99999;
+  .unis-arrow::after {
+    margin-top: -6px !important;
+  }
+}

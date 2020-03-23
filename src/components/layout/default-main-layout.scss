@@ -1,0 +1,79 @@
+
+.default-main-layout {
+  width: 100%;
+  height: 100%;
+  .obd-sidebar-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 240px;
+    z-index: 100;
+  }
+  .obd-header {
+    position: fixed;
+    top: 0;
+    left: 240px;
+    right: 0;
+    height: 50px;
+    transition: left 0.5s;
+    z-index: 99999;
+    .unis-arrow::after {
+      margin-top: -6px !important;
+    }
+  }
+  .obd-header-shrink {
+    left: 64px;
+    transition: left 0.5s;
+  }
+  .obd-content {
+    position: fixed;
+    top: 50px;
+    left: 240px;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+    transition: left 0.5s;
+    z-index: 0;
+    font-family: 'AvenirNext-Regular' !important;
+    line-height: normal;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-direction: row !important;
+    flex-direction: row !important;
+    -ms-flex-flow: nowrap;
+    flex-flow: nowrap;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    .section-box{
+      position: relative;
+      height: 100%;
+      width: 100%;
+    }
+  }
+  .pr-28 {
+    padding-right: 28% !important;
+  }
+  .account-framework {
+    top: 100px;
+    right: -580px;
+    bottom: 30px;
+    overflow-y: auto;
+    transition: right 0.5s;
+  }
+  .account-framework-in{
+    right: 30px;
+  }
+}
+
+.obd-content-shrink {
+  left: 64px;
+  transition: left 0.5s;
+}
+
+.unis-header > .nav > .drop-box ul {
+  padding-top: 0 !important;
+
+}
+

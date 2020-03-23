@@ -1,0 +1,76 @@
+@import "../../../assets/css/mixins";
+
+.add-receipt {
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  article {
+    td {
+      vertical-align: middle;
+    }
+    .td-input-box {
+      position: relative;
+      height: 45px;
+      .td-input {
+        position: absolute;
+        display: block;
+        width: 98%;
+        height: 39px;
+        border: #eeeeee solid 1px;
+        border-radius: 2px;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        padding-left: 10px;
+        margin: auto;
+      }
+    }
+    .action-td {
+      text-align: center;
+      text-align: -webkit-center;
+      vertical-align: middle;
+      cursor: pointer;
+      position: relative;
+      .nav-box {
+        position: absolute;
+        z-index: 9999;
+        display: none;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 134px;
+        margin: auto;
+        margin-right: 70px;
+        height: 105px;
+        background: #ffffff;
+        font-size: 14px;
+        background: #FFFFFF;
+        border: 0.25px solid #D8D8D8;
+        box-sizing: border-box;
+        box-shadow: 0px 2px 8px rgba(185, 185, 185, 0.25);
+        border-radius: 2px;
+        padding: 0;
+        text-align: left;
+        overflow: hidden;
+        outline: none;
+        & > div {
+          padding: 8px 15px;
+          display: block;
+          &:hover {
+            background: #C4D8EA;
+            cursor: pointer;
+          }
+        }
+
+      }
+      .dis-blk {
+        display: block !important;
+      }
+    }
+  }
+  //.unis-steps{
+  //  background: currentcolor!important;
+  //}
+}
