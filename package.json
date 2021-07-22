@@ -27,7 +27,7 @@
     "vue-json-excel": "^0.2.98",
     "vue-router": "^3.0.1",
     "vuejs-datepicker": "^1.6.2",
-    "xlsx": "^0.15.3"
+    "xlsx": "^0.17.0"
   },
   "devDependencies": {
     "@types/lodash-es": "^4.14.106",
